@@ -33,7 +33,7 @@ function headerShadow() {
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText",{
-  strings : ["Developer","Student","Otaku"],
+  strings : [" a Developer"," a Student","a code artist","a problem solver"],
   loop : true,
   typeSpeed : 100, 
   backSpeed : 80,
@@ -87,6 +87,18 @@ reset: true
 
 srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
+
+/*CV*/
+document.getElementById('download-cv-btn').addEventListener('click', function() {
+
+  const filePath = 'assets/EMANUEL_PAULO_JAVA_DEVELOPER__CV.pdf';
+
+  const link = document.createElement('a');
+  link.href = filePath;
+  link.download = 'EMANUEL_PAULO_JAVA_DEVELOPER__CV.pdf.pdf'; 
+  link.click(); 
+});
+
 
 
 
