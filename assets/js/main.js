@@ -88,16 +88,19 @@ reset: true
 srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
 
-/*CV*/
-document.getElementById('download-cv-btn').addEventListener('click', function() {
+const downloadCvButtons = document.querySelectorAll('.download-cv-btn');
 
-  const filePath = 'assets/EMANUEL_PAULO_JAVA_DEVELOPER__CV.pdf';
-
-  const link = document.createElement('a');
-  link.href = filePath;
-  link.download = 'EMANUEL_PAULO_JAVA_DEVELOPER__CV.pdf.pdf'; 
-  link.click(); 
+downloadCvButtons.forEach(button => {
+  button.addEventListener('click', function() {
+    const filePath = 'assets/EMANUEL_PAULO_JAVA_DEVELOPER__CV.pdf';
+   
+    const link = document.createElement('a');
+    link.href = filePath;
+    link.download = 'EMANUEL_PAULO_JAVA_DEVELOPER__CV.pdf'; 
+    link.click(); 
+  });
 });
+
 
 
 
