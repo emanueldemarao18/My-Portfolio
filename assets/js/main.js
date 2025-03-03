@@ -92,11 +92,11 @@ const downloadCvButtons = document.querySelectorAll('.download-cv-btn');
 
 downloadCvButtons.forEach(button => {
   button.addEventListener('click', function() {
-    const filePath = 'assets/Emanuel_Paulo_Java_Developer.pdf';
+    const filePath = 'assets/EMANUEL_PAULO_JAVA_DEVELOPER__CV.pdf';
    
     const link = document.createElement('a');
     link.href = filePath;
-    link.download = 'Emanuel_Paulo_Java_Developer.pdf'; 
+    link.download = 'EMANUEL_PAULO_JAVA_DEVELOPER__CV.pdf'; 
     link.click(); 
   });
 });
