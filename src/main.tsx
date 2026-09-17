@@ -72,7 +72,7 @@ function App() {
       <div className="noise" aria-hidden="true" />
       <header className="nav-shell">
         <nav className="nav container" aria-label="Main navigation">
-          <a className="logo" href="#home" aria-label="Emanuel Paulo home">EP<span>.</span></a>
+          <a className="logo nav-brand" href="#home" aria-label="Emanuel Paulo home"><img src={avatarUrl} alt="" /><span className="brand-text">EP<span>.</span></span></a>
           <button className="menu-button" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
             {menuOpen ? <X /> : <Menu />}
           </button>
