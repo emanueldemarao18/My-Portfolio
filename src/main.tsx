@@ -38,10 +38,10 @@ const projects = [
   },
   {
     number: '02',
-    title: 'SnapVegan',
-    description: 'A product-focused platform that helps people discover whether products match a vegan lifestyle through a fast, mobile-first experience.',
-    tags: ['React', 'TypeScript', 'Product'],
-    link: 'https://github.com/emanueldemarao18',
+    title: 'ShipSync',
+    description: 'A multi-carrier shipment tracking platform designed to monitor deliveries from CTT, FedEx, DHL and UPS with live status updates, notifications and a unified dashboard.',
+    tags: ['Spring Boot', 'Angular', 'WebSockets', 'Docker'],
+    link: 'https://github.com/emanueldemarao18/ShipSync',
   },
   {
     number: '03',
