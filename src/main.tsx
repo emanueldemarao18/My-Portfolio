@@ -8,7 +8,6 @@ const cvUrl = new URL('../assets/EMANUEL_PAULO_JAVA_DEVELOPER__CV.pdf', import.m
 
 const experiences = [
   {
-    period: '2 Nov 2026 — Present',
     company: 'Vodafone Portugal',
     role: 'Backend Developer',
     description: 'Building and evolving digital channel platforms, integrations and reliable customer-facing services within Vodafone Portugal’s Backend Engineering team.',
@@ -16,14 +15,12 @@ const experiences = [
     current: true,
   },
   {
-    period: '2025 — 2026',
     company: 'Asseco PST',
     role: 'Java Backend Developer',
     description: 'Built financial-services integrations, batch processing flows and channel APIs with strong attention to reliability, security and observability.',
     tags: ['Java 21', 'Spring Boot', 'RabbitMQ', 'SQL Server'],
   },
   {
-    period: '2024 — 2025',
     company: 'Critical TechWorks · BMW Group',
     role: 'Java Developer',
     description: 'Contributed to automotive software using reactive Java services, clean APIs and collaborative engineering practices.',
@@ -146,7 +143,6 @@ function App() {
           <div className="timeline">
             {experiences.map((item, index) => (
               <article className="experience-card reveal" key={item.company} style={{ '--delay': `${index * 90}ms` } as React.CSSProperties}>
-                <div className="experience-period">{item.period}</div>
                 <div className="experience-main">
                   <div className="experience-title"><h3>{item.role}</h3>{item.current && <span>Current</span>}</div>
                   <h4>{item.company}</h4>
