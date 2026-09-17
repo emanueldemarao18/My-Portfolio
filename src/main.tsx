@@ -45,10 +45,10 @@ const projects = [
   },
   {
     number: '03',
-    title: 'MyLinks API',
-    description: 'A backend service for organising and reviewing saved links, built around authentication, clean data modelling and maintainable APIs.',
-    tags: ['NestJS', 'Prisma', 'MySQL'],
-    link: 'https://github.com/emanueldemarao18/my-saved-links',
+    title: 'TripMate',
+    description: 'A mobile-first collaborative travel planner that brings itineraries, budgets, bookings, checklists and group decisions into one shared space.',
+    tags: ['In Development', 'Spring Boot', 'React', 'PWA'],
+    link: 'https://github.com/emanueldemarao18/TripMate',
   },
 ];
 
